@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+    <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!-- bocxicon icons -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- link animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <h3 class="name">SaraNazari...</h3>
+        <button class="hamburger" aria-label="Toggle menu">☰</button>
+    <ul class="nav--part">
+      <li class="nav-links"><a href="#" data-page="index.html" class="nav--links--part">Home</a></li>
+      <li class="nav-links"><a href="#" data-page="about.html" class="nav--links--part">About</a></li>
+      <li class="nav-links"><a href="#" data-page="protfolio.html" class="nav--links--part">Portfolio</a></li>
+      <li class="nav-links"><a href="#" data-page="contact.html" class="nav--links--part">Contact</a></li>
+    </ul>
+  </nav>
+
+<section class="container4" data-aos="zoom-in">
+    <h1 class="Portfolio" data-aos="zoom-in-down">Portfolio Showcase</h1>
+   <pre> <p class="Exploits">
+      Explore my journey through projects, certifications, and technical expertise.
+      Each section represents a milestone in my continuous learning path.
+    </p></pre>
+
+     <div class="buttons-container" data-aos="zoom-in-up">
+      <button class="projects hide-btn"><i class="fa-solid fa-code"></i> Projects</button>
+      <button class="certificate hide-btn"><i class="fa-solid fa-medal"></i> Certificates</button>
+      <button class="tech-stack hide-btn"><i class="fa-solid fa-briefcase"></i> Tech Stacks</button>
+    </div>
+ 
+   <!-- Projects Section -->
+ <div class="screen" id="projects-section" style="display: none;">
+  <div id="code-animation"></div>
+ <div class="slider">
+    <div class="slide"><img src="./animation/slider6.png" alt="Three samples" ></div>
+    <div class="slide"><img src="./animation/slider5.png" alt="Three samples" ></div>
+    <div class="slide"><img src="./animation/slider4.png" alt="three samples"></div>
+    <div class="slide"><img src="./animation/slider3.png" alt="three samples"></div>
+
+    <button class="slider__btn slider__btn--left">&#10094;</button>
+    <button class="slider__btn slider__btn--right">&#10095;</button>
+    <div class="dots"></div>
+  </div>
+ 
+
+</div>
+
+<!-- Certificates Section -->
+<div class="certificate-button-part" id="certificates-section" style="display: none;">
+  <div class="photo--container">
+    <img src="./animation/certificate.png" alt="certificate" class="certificate--img">
+    <img src="./animation/certificate.png" alt="certificate" class="certificate--img">
+    <img src="./animation/certificate.png" alt="certificate" class="certificate--img">
+    <img src="./animation/certificate.png" alt="certificate" class="certificate--img">
+    <img src="./animation/certificate.png" alt="certificate" class="certificate--img">
+  </div>
+</div>
+
+<!-- Tech Stack Section -->
+<div class="programms" id="techstack-section" style="display: none;">
+  <div class="programms--container">
+    <div class="programms--from--first"><i class="fa-brands fa-html5"></i><h1 class="read--me">Html</h1></div>
+    <div class="programms--from--first"><i class="fa-brands fa-css3-alt"></i><h1 class="read--me">CSS</h1></div>
+    <div class="programms--from--first"><i class="fa-brands fa-js"></i><h1 class="read--me">JavaScript</h1></div>
+    <div class="programms--from--first"><i class='bx bxl-tailwind-css'></i><h1 class="read--me">Tailwind Css</h1></div>
+    <div class="programms--from--first"><i class="fa-brands fa-react"></i><h1 class="read--me">React</h1></div>
+    <div class="programms--from--first"><i class="fa-brands fa-node-js"></i><h1 class="read--me">Node.Js</h1></div>
+    <div class="programms--from--first"><i class="fa-brands fa-bootstrap"></i><h1 class="read--me">Bootstrap</h1></div>
+    <div class="programms--from--first"><i class='bx bxl-firebase'></i><h1 class="read--me">Firebase</h1></div>
+    <div class="programms--from--first"><i class='bx bx-git-branch'></i><h1 class="read--me">GIT</h1></div>
+    <div class="programms--from--first"><i class='bx bxl-github'></i><h1 class="read--me">GITHub</h1></div>
+  </div>
+</div>
+
+  </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+         offset :300,
+      duration:1400,
+    }
+    )
+   
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

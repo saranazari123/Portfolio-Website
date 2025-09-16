@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./style.css">
+      <!-- link animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+     <!-- forth page navbar -->
+    <nav class="navbar">
+    <h3 class="name">SaraNazari...</h3>
+      <button class="hamburger" aria-label="Toggle menu">☰</button>
+    <ul class="nav--part">
+    
+      <li class="nav-links"><a href="#" data-page="index.html" class="nav--links--part">Home</a></li>
+      <li class="nav-links"><a href="#" data-page="about.html" class="nav--links--part">About</a></li>
+      <li class="nav-links"><a href="#" data-page="protfolio.html" class="nav--links--part">Portfolio</a></li>
+      <li class="nav-links"><a href="#" data-page="contact.html" class="nav--links--part">Contact</a></li>
+    </ul>
+  </nav>
+<div class="container5" data-aos="zoom-in">
+  <h1 class="have-question">Got a question send me a message. and I'll get back to you soon.</h1>
+<div class="container6">
+
+  <div class="contacts-part" data-aos="zoom-in-down">
+  <h1 class="get-in-touch">Get in Touch</h1>
+  <p>Have something to discuss? Send me a message and let's talk.</p>
+  <form class="first--form--contact">
+    <input type="text" placeholder="User name">
+    <input type="email" placeholder="Your Email">
+  </form>
+    <textarea name="" id="" class="textarea" placeholder="Write Your Message"></textarea>
+    <button class="send--message">Send message</button>
+</div>
+
+<div class="comments" data-aos="zoom-in-up">
+  <h1 class="comments-part">Comments (19)</h1>
+  <form class="second--form--comments">
+    <label for="name">Name</label>
+    <input type="text" placeholder="Enter your name" id="name">
+
+    <label for="message">Message</label>
+    <textarea id="message" placeholder="Write your message here ..."></textarea>
+    
+    <span>Portfolio</span>
+
+    <button class="send--message">Post Comments</button>
+  </form>
+</div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+         offset :300,
+      duration:1400,
+    }
+    )
+   
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

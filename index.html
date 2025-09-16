@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home Page</title>
+  <link rel="stylesheet" href="style.css" />
+   <!-- bocxicon icons -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Lottie Animation -->
+  <script src="https://unpkg.com/lottie-web@5.7.4/build/player/lottie.min.js"></script>
+  <!-- link animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <!-- First Page -->
+  <section class="container1">
+    <!-- Navbar -->
+    <nav class="navbar">
+    <h3 class="name">SaraNazari...</h3>
+    <button class="hamburger" aria-label="Toggle menu">☰</button>
+    <ul class="nav--part">
+
+      <li class="nav-links"><a href="#" data-page="index.html" class="nav--links--part">Home</a></li>
+      <li class="nav-links"><a href="#" data-page="about.html" class="nav--links--part">About</a></li>
+      <li class="nav-links"><a href="#" data-page="protfolio.html" class="nav--links--part">Portfolio</a></li>
+      <li class="nav-links"><a href="#" data-page="contact.html" class="nav--links--part">Contact</a></li>
+    </ul>
+  </nav>
+    <!-- Hero Section -->
+    <div class="container2"  data-aos="zoom-in">
+     
+      <h1 class="frontend">Frontend</h1>
+      <h1 class="developer">Developer</h1>
+      <p class="network">Network & Telecom student |</p>
+      <p class="modern">
+        Modern Website Development. Functional and <br />
+        User-friendly Digital Solutions.
+      </p>
+
+      <!-- Tech Buttons -->
+      <div>
+        <button class="first-btn">React</button>
+        <button class="first-btn">JavaScript</button>
+        <button class="first-btn">Node.js</button>
+        <button class="first-btn">Tailwind</button>
+      </div>
+
+      <!-- Action Buttons -->
+      <div>
+        <button class="second-btn">Projects <i class="fa-regular fa-pen-to-square"></i></button>
+        <button class="second-btn">Contact <i class="fa-regular fa-envelope"></i></button>
+      </div>
+
+      <!-- Lottie Animation -->
+      <div id="animation"></div>
+    </div>
+  </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+         offset :300,
+      duration:1400,
+    }
+    )
+   
+  </script>
+    <script src="script.js"></script>
+</body>
+</html>

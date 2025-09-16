@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css" />
+    <!-- bocxicon icons -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+  <header class="navbar-2">
+    <div class="name">SaraNazari..</div>
+    <button class="hamburger" aria-label="Toggle menu">☰</button>
+    <nav class="nav-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="protfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<section class="container3" data-aos="zoom-in">
+  <h1 class="About-me">About Me</h1>
+  <p class="digital"><i class="fa-solid fa-hashtag"></i> Transforming ideas into digital experiences <i class="fa-solid fa-hashtag"></i></p>
+
+  <div class="content-photo-wrapper">
+    <div class="text-left">
+      <h2 class="hello">Hello, I'm</h2>
+      <h1 class="sara-name">Sara Nazari</h1>
+      <p class="first-para">
+   
+“I’m a frontend developer passionate about creating modern, responsive, and user-friendly websites. Skilled in HTML, CSS, JavaScript, React, Tailwind, and Bootstrap. Currently studying Network & Telecom, with a strong interest in digital solutions.”
+      </p>
+
+      <div class="btn-group">
+        <button class="cv second-page-btn"><i class="fa-regular fa-file"></i> Download CV</button>
+        <button class="view-projects second-page-btn"><i class="fa-solid fa-diagram-project"></i> View Projects</button>
+      </div>
+    </div>
+
+    <div class="circle" data-aos="zoom-in-up">
+      <img src="./animation/photo.png" alt="Sara Nazari Profile" class="black-icon" />
+    </div>
+  </div>
+</section>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+         offset :300,
+      duration:1400,
+    }
+    )
+   
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
