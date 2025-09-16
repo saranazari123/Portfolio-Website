@@ -36,7 +36,7 @@ I have successfully completed multiple training programs in:
 ---
 
 ## 🔗 Live Demo
-👉 [View My Portfolio](http://127.0.0.1:5500/index.html/)  
+👉 [View My Portfolio](http://127.0.0.1:5500/index.html)  
 
 ---
 ✨ *Thank you for visiting my portfolio!*
