@@ -39,11 +39,4 @@ I have successfully completed multiple training programs in:
 👉 [View My Portfolio](http://127.0.0.1:5500/index.html/)  
 
 ---
-
-## 📬 Contact
-- **Email:** your-email@example.com  
-- **LinkedIn:** [your-linkedin-profile](#)  
-- **Fiverr:** [your-fiverr-link](#)  
-
----
 ✨ *Thank you for visiting my portfolio!*
